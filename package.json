@@ -1,0 +1,28 @@
+{
+  "name": "yaml-ref-loader",
+  "version": "0.1.0",
+  "description": "YAML loader for webpack with refs support",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veetold/yaml-ref-loader.git"
+  },
+  "keywords": [
+    "yaml",
+    "webpack",
+    "loader",
+    "ref",
+    "openapi",
+    "json"
+  ],
+  "author": "Viktor Klimov <viktor.klimov@gmail.com",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/veetold/yaml-ref-loader/issues"
+  },
+  "homepage": "https://github.com/veetold/yaml-ref-loader",
+  "dependencies": {
+    "@cloudflare/json-hyper-schema": "^0.1.1",
+    "@cloudflare/json-schema-transform": "^0.1.1"
+  }
+}
